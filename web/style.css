@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 10vh;
+    background-color: rgb(92, 78, 78);
+}
+.logo{
+    
+    float: left;
+    height: 71px;
+    width: 70px;
+    background-image: url('tata.png');
+    background-size: cover;
+}
+.links{
+    margin-left: 100px;
+    float:left;
+    box-sizing: border-box;
+
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+}
+a{
+    display:block;
+    text-decoration: none;
+    color:white;
+    box-sizing: border-box;
+    padding:15px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+a:hover{
+    box-sizing: border-box;
+    background-color: blue;
+    border-radius: 7px;
+    padding-bottom:24px;
+}
+.last{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:7px;
+    margin-top: 12px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    float:left;
+    border:5px solid royalblue;
+    color:whitesmoke;
+    font-size: 18px;
+}
+.last1{
+    margin-top: 7px;
+    padding:7px;
+    width: 150px;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-top: 12px;
+    color:white;
+    margin-left: 100px;
+    float:left;
+    border: 5px solid royalblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.last:hover{
+    cursor: pointer;
+    color:black;
+    background-color: aqua;
+}
+.last1:hover{
+    cursor: pointer;
+    color:black;
+    background-color: aqua;
+}
+.container1{
+    
+    height: 50vh;
+    background-image: url('property.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.tab1{
+    float:left;
+    border:3px solid black;
+    padding: 12px;
+    
+}
+.tab2{
+    float:left;
+    border:3px solid black;
+    padding: 12px;
+    margin-left: 12px;
+
+}
+.tab3{
+    float:left;
+    border:3px solid black;
+    padding: 12px;
+    margin-left: 12px;
+
+
+}
+.tab4{
+    float:left;
+    border:3px solid black;
+    padding: 12px;
+    margin-left: 45px;
+
+}
+.tab{
+    display: inline-block;
+    margin: 45px;
+    margin-top: 90px;
+    margin-left: 600px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tab1:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    font-size:23 ;
+}
+.tab2:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    font-size:23 ;
+}
+.tab3:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    font-size:23 ;
+}
+.tab4:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    font-size:23 ;
+}
+.container2{
+    display: inline-block;
+    width: 100%;
+    height: 60vh;
+    background-color: beige;
+    /* opacity: 0.3; */
+}
+.c1{
+    /* border:3px solid black; */
+    display: inline-block;
+    opacity: 1;
+    height:300;
+    width:300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:45px ;
+    margin-left: 34px;
+    padding:12px;
+    text-transform: capitalize;
+    padding-left: 58px;
+    padding-top: 0px;
+    /* background-image: url('images.png'); */
+}
+.midd{
+    display: inline-block;
+    border: 3px solid blue;
+    border-radius: 45px;
+    padding: 15px;
+    /* padding-left:30px ; */
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left:12px ;
+    background-color: ivory;
+}
+.c2{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    
+}
+.c3{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-left: 350px;
+}
+.con1{
+    display: inline-block;
+    margin-left: 200px;
+}
+.midd:hover{
+    cursor: pointer;
+    background-color: blue;
+    font-size: 18px;
+    color: aliceblue;
+}
+.con{
+    /* margin-top: 0px; */
+    display: inline-block;
+    box-sizing: border-box;
+}
+.pro{
+    margin-top: 12px;
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container3{
+    height: 50vh;
+    background-color: ghostwhite;
+}
+.firstitem{
+    height:30vh;
+    width:20vw;
+    /* background-image: url('notebook.png'); */
+    /* background-repeat:no-repeat; */
+    /* background-size: contain; */
+    float: left;
+}
+.seconditem{
+    height:30vh;
+    width:20vw;
+    /* background-image: url('download1.png'); */
+    /* background-repeat:no-repeat; */
+    /* background-size: contain; */
+    float: left;
+}
+.thirditem{
+    height:30vh;
+    width:20vw;
+    /* background-image: url('like.png'); */
+    /* background-repeat:no-repeat; */
+    /* background-size: contain; */
+    float: left;
+}
+.fourthitem{
+    height:30vh;
+    width:20vw;
+    /* background-image: url('download2.png'); */
+    /* background-repeat:no-repeat; */
+    /* background-size: contain; */
+    float: left;
+}
+.container4{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 34px;
+}
+h3{
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 9px;
+    margin-left: 30px;
+}
+.ffff{
+    margin-left: 67px;
+    border:3px solid rgb(47, 13, 13);
+    padding: 9px;
+    background-color: aqua;
+    border-radius: 45px;
+}
+.ssss{
+    margin-left: 67px;
+    border:3px solid rgb(47, 13, 13);
+    padding: 9px;
+    background-color: aqua;
+    border-radius: 45px;
+}
+.tttt{
+    margin-left: 67px;
+    border:3px solid rgb(47, 13, 13);
+    padding: 9px;
+    background-color: aqua;
+    border-radius: 45px;
+}
+.f1{
+    margin-left: 67px;
+    border:3px solid rgb(47, 13, 13);
+    padding: 9px;
+    background-color: aqua;
+    border-radius: 45px;
+}
+.f1:hover{
+    background-color: black;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.ffff:hover{
+    background-color: black;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.ssss:hover{
+    background-color: black;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.tttt:hover{
+    background-color: black;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.what{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
